@@ -6,4 +6,4 @@ tip3 = round(money * 0.25, 2)
 if partyamount > 8:
     print("A 20% tip is automatically added to parties of 8 or more. Your bill is {}".format(tip2))
 else:
-    print("Your tip options are:\n 15%: {}".format(tip1) "\n 20%: {}".format(tip2) "\n 25%: {}".format(tip3))
+    print("Your tip options are:\n 15%: {}".format(tip1) + "\n 20%: {}".format(tip2) + "\n 25%: {}".format(tip3))

@@ -11,7 +11,7 @@ high_customer_output = "A 20% tip is automatically added to parties of 8 or more
 grader_root = str(pathlib.Path(__file__).parent.resolve())
 exe_file = grader_root + "/calculator.py"
 
-py_exe = "py3" if platform.system == "Windows" else "python3"
+py_exe = "py -3" if platform.system == "Windows" else "python3"
 
 def make_expected_output(expected):
     message = low_customer_output
